@@ -30,32 +30,32 @@ const Navigations = ({ direction }: { direction?: string }) => {
           whileHover={{ scale: 1.1 }}
           className="md:text-sm lg:text-md text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out"
         >
-          <Link to={'/'}>Home</Link>
+          <Link to={'/'}>Inicio</Link>
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1 }}
           className="md:text-sm lg:text-md text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out"
         >
-          <Link to={'/menu'}>Menu</Link>
+          <Link to={'/menu'}>Menú</Link>
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1 }}
           className="md:text-sm lg:text-md text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out"
         >
-          <Link to={'/services'}>Services</Link>
+          <Link to={'/services'}>Servicios</Link>
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1 }}
           className="md:text-sm lg:text-md text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out"
         >
-          <Link to={'/about'}>About us</Link>
+          <Link to={'/about'}>Acerca de</Link>
         </motion.li>
         <motion.li
           whileHover={{ scale: 1.1 }}
           className="md:text-sm lg:text-md text-base text-textColor cursor-pointer hover:text-headingColor duration-100 transition-all ease-in-out"
           onClick={handleToggleContact}
         >
-          Contact us
+          Contacto
         </motion.li>
       </motion.ul>
 

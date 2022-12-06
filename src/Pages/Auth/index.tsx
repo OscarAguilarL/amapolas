@@ -54,22 +54,6 @@ const ProviderAuth = () => {
       <motion.p
         whileHover={{ scale: 1.1 }}
         className="flex items-center w-36 h-10 bg-white justify-center rounded text-headingColor px-5 cursor-pointer shadow-sm hover:bg-slate-100"
-        onClick={() =>
-          toast.warn("GitHub Signin is not available yet", {
-            autoClose: 2000,
-            icon: (
-              <MdOutlineNotificationsActive className="text-yellow-500 text-xl" />
-            ),
-            toastId: "github",
-          })
-        }
-      >
-        <BsGithub className="text-xl w-5 mr-1" />
-        <span>Github</span>
-      </motion.p>
-      <motion.p
-        whileHover={{ scale: 1.1 }}
-        className="flex items-center w-36 h-10 bg-white justify-center rounded text-headingColor px-5 cursor-pointer shadow-sm hover:bg-slate-100"
         onClick={() => AUTH({ provider: GOOGLE_PROVIDER })}
       >
         <FcGoogle className="text-xl w-5 mr-1" />

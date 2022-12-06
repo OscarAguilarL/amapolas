@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { useStateValue } from "../../context/StateProvider";
 const Header = () => {
-  // 
+  //
   // const firebaseAuth = getAuth(app);
   const [{ user }, dispatch] = useStateValue();
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const Header = () => {
           >
             <img src={Logo} alt="Logo" className="md:w-6 lg:w-8 object-cover" />
             <p className="text-headingColor md:text-lg lg:text-xl font-bold">
-              Bentilzone
+              Amapolas
             </p>
           </motion.div>
         </Link>
@@ -86,7 +86,7 @@ const Header = () => {
               >
                 <img src={Logo} alt="Logo" className="w-8 object-cover" />
                 <p className="text-headingColor text-xl font-bold">
-                  Bentilzone
+                Amapolas
                 </p>
               </motion.div>
             </Link>

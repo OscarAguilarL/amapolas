@@ -288,7 +288,7 @@ export const ToggleAdminMode = (dispatch: any, state: boolean) => {
 };
 
 export const isAdmin = (user: any) => {
-  let isAdmin =user?.email == "bentilshadrack72@gmail.com" || user?.email == "admin@test.com"
+  let isAdmin = user?.email === "l19200894@pachuca.tecnm.mx" || user?.email === "admin@test.com" || user?.email == "l20200212@pachuca.tecnm.mx"
   return isAdmin
 };
 
@@ -330,7 +330,7 @@ export const dispatchUsers = async (dispatch: any) => {
     })
     .catch((e: any) => {
       console.log(e);
-    }); 
+    });
 }
 export const getAllUser = async() => {
    await firebaseGetAllUsers().then((users: any) => {
